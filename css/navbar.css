@@ -1,3 +1,10 @@
+nav{
+
+    position:fixed;
+    background:#fff url(../images/nav.png) repeat-x center left;
+    z-index:999999;
+}
+
 #nav-form{
   height: 25px;
 }
