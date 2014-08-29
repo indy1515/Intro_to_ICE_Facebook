@@ -9,90 +9,45 @@
         <meta name="keywords" content="lateral, sides, slide, scroll, jquery, css3, timeline" />
         <meta name="author" content="Codrops" />
         <link rel="shortcut icon" href="../favicon.ico"> 
-
-        <!-- Loading Bootstrap -->
-        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-
-       
-        <link href="css/flat-ui.css" rel="stylesheet">
-        
-        <link href="css/navbar.css" rel="stylesheet">
-         <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link href='http://fonts.googleapis.com/css?family=Kelly+Slab' rel='stylesheet' type='text/css' />
 		<!--[if lt IE 9]>
 				<link rel="stylesheet" type="text/css" href="css/styleIE.css" />
 		<![endif]-->
 		<script type="text/javascript" src="js/modernizr.custom.11333.js"></script>
-
-        <style>
-        </style>
     </head>
     <body>
-        <!--======== Navbar ===========-->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><img src="images/resource/flat-256-Facebook.png" width="40" height="40"alt="
-          "/></a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <form class="navbar-form navbar-left" role="search">
-
-            <div class="form-group">
-              <input id="nav-form" type="text" class="form-control" placeholder="Search">
+        <div class="container">
+            <div class="header">
+                <a href="http://tympanus.net/Tutorials/TypographyEffects/">
+                    <strong>&laquo; Previous Demo: </strong>Typography Effects with CSS3 and jQuery
+                </a>
+                <span class="right">
+                    <a href="http://tympanus.net/codrops/2011/12/05/lateral-on-scroll-sliding-with-jquery/">
+                        <strong>Back to the Codrops Article</strong>
+                    </a>
+                </span>
+                <div class="clr"></div>
             </div>
-            <!-- <button type="submit" class="btn btn-default">Submit</button> -->
-          </form>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Intouch</a></li>
-            <li class="active"><a href="#">Home</a></li>
-           
-          </ul>
-          
-          <ul class="nav navbar-nav navbar-right">
-            
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"></span><span class="glyphicon glyphicon-list"></span> <span class="caret"></span></a>
-              <ul class="dropdown-menu settings" role="menu">
-                <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span> Help</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-cog"></span> Settings</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-flag"></span> Report</a></li>
-                <li class="divider"></li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-
-    <!--========================== End Navbar ===========================-->
-        <div class="container-s">
-            
-			
-            <h2 class="ss-subtitle">Intouch Timeline</h2>
+			<div class="demos">
+				<a class="current-demo" href="index.html">Default Demo</a>
+				<a href="index2.html">Perspective Demo (Webkit only)</a>
+			</div>
+            <h1>Lateral On-Scroll Sliding with jQuery</h1>
+            <h2 class="ss-subtitle">Codrops Timeline</h2>
 			<div id="ss-links" class="ss-links">
+				<a href="#november">Nov</a>
+				<a href="#october">Oct</a>
+				<a href="#september">Sep</a>
+				<a href="#august">Aug</a>
 				<a href="#july">Jul</a>
 				<a href="#june">Jun</a>
-				<a href="#march">Mar</a>
-				<a href="#february">Aug</a>
-				<a href="#november">Nov</a>
-			
 			</div>
             <div id="ss-container" class="ss-container">
                 <div class="ss-row">
                     <div class="ss-left">
-                        <h2 id="july">JULY</h2>
+                        <h2 id="november">JULY</h2>
                     </div>
                     <div class="ss-right">
                         <h2>2014</h2>
@@ -177,7 +132,7 @@
                 </div>-->
 				<div class="ss-row">
                     <div class="ss-left">
-                        <h2 id="june">JUNE</h2>
+                        <h2 id="october">JUNE</h2>
                     </div>
                     <div class="ss-right">
                         <h2>2014</h2>
@@ -205,11 +160,9 @@
                         </h3>
                     </div>
                 </div>
-
-
                 <div class="ss-row">
                     <div class="ss-left">
-                        <h2 id="march">MARCH</h2>
+                        <h2 id="september">MARCH</h2>
                     </div>
                     <div class="ss-right">
                         <h2>2014</h2>
@@ -251,7 +204,7 @@
 
                 <div class="ss-row">
                     <div class="ss-left">
-                        <h2 id="february">FEBRUARY</h2>
+                        <h2 id="september">FEBRUARY</h2>
                     </div>
                     <div class="ss-right">
                         <h2>2014</h2>
@@ -272,7 +225,7 @@
 
                 <div class="ss-row">
                     <div class="ss-left">
-                        <h2 id="november">November</h2>
+                        <h2 id="september">November</h2>
                     </div>
                     <div class="ss-right">
                         <h2>2013</h2>
@@ -592,7 +545,7 @@
 							
 							// scroll to the element that has id = menu's href
 							$('html, body').stop().animate({
-								scrollTop: $( $(this).attr('href') ).offset().top-60
+								scrollTop: $( $(this).attr('href') ).offset().top
 							}, scollPageSpeed, scollPageEasing );
 							
 							return false;
@@ -759,19 +712,5 @@
 			
 		});
 		</script>
-        <script src="js/jquery-1.8.3.min.js"></script>
-        <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
-        <script src="js/jquery.ui.touch-punch.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/bootstrap-select.js"></script>
-        <script src="js/bootstrap-switch.js"></script>
-        <script src="js/flatui-checkbox.js"></script>
-        <script src="js/flatui-radio.js"></script>
-        <script src="js/jquery.tagsinput.js"></script>
-        <script src="js/jquery.placeholder.js"></script>
-        <script src="js/jquery.stacktable.js"></script>
-        <script src="http://vjs.zencdn.net/4.3/video.js"></script>
-        <script src="js/application.js"></script>
-        <script src="js/navbar-fade.js"></script>
     </body>
 </html>
