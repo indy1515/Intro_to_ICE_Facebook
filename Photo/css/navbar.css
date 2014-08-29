@@ -1,0 +1,53 @@
+nav{
+
+    position:fixed;
+    background:#fff url(../images/nav2.png) repeat-x center left;
+    z-index:999999;
+}
+
+#nav-form{
+  height: 25px;
+}
+
+.navbar{
+  margin-bottom: 0px;
+}
+
+.navbar-nav > li > a {
+  padding: 10px 21px;
+}
+
+.navbar-brand{
+  padding-top: 2px;
+  /*line-height: 22px;*/
+}
+.navbar-form{
+  padding-top: 8px;
+  line-height: 1.58;
+}
+
+.navbar-form .form-control{
+  width: 600px;
+}
+
+.navbar-nav > li > a{
+  line-height: 22px;
+
+}
+
+.navbar-form input{
+  width: 300px;
+}
+
+.navbar-default .navbar-form .form-control:focus {
+  /*border-color: #1abc9c;*/
+  color: transparent;
+}
+
+.dropdown-menu {
+  border-color: #b4b4b4;
+}
+
+li .dropdown-menu{
+  margin-right: 8px;
+}
