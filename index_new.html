@@ -105,6 +105,44 @@
 
     </style>
 
+    <style>
+
+      .timeline-title{
+        background-color: #ebeff2;
+        border: 2px ;
+        border-color: black;
+      }
+
+      .whostalk-container{
+        margin-top: 20px;
+      }
+      .imgandtext{
+        position: relative;
+      }
+
+      .imgandtext .text-inside{
+        position: absolute;
+        z-index: 1;
+        left: 3px;
+        top: 76%;
+        color: white;
+      }
+
+      .imgandtext .text-inside p{
+        background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.701961));
+        font-size: 14px;
+      } 
+
+      .text-box{
+        background-color: grey;
+        border-color: black;
+        margin-right: 
+      
+      }
+
+
+    </style>
+
   </head>
   <body>
     <!--======== Navbar ===========-->
@@ -134,19 +172,30 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Intouch</a></li>
             <li class="active"><a href="#">Home</a></li>
-           
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
           </ul>
           
           <ul class="nav navbar-nav navbar-right">
-            
+            <li><a href="#">Link</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"></span><span class="glyphicon glyphicon-list"></span> <span class="caret"></span></a>
-              <ul class="dropdown-menu settings" role="menu">
-                <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span> Help</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-cog"></span> Settings</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-flag"></span> Report</a></li>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
                 <li class="divider"></li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+                <li><a href="#">Separated link</a></li>
               </ul>
             </li>
           </ul>
@@ -179,7 +228,7 @@
               <p><a href="#">Home</a></p>
             </div>  
             <div class="col-md-2 title">
-              <p><a href="Events/index.html">Events</a></p>
+              <p><a href="#">Events</a></p>
             </div>  
             <div class="col-md-2 title">
               <p><a href="#">Photo</a></p>
@@ -188,11 +237,11 @@
               
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><p>About<span class="caret"></span><p> </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Hobbies</a></li>
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
                 <li class="divider"></li>
-                <li><a href="#">Contact</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Education</a></li>
+                <li><a href="#">Separated link</a></li>
               </ul>
             
             </div>  
@@ -209,40 +258,174 @@
       </div>  
     </div>
 
-    
-
     <!--========================== End Content ===========================-->
 
-    <!--========================== Timeline ===========================-->
+    <!--========================== Floationg textbox ===========================-->
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-offset-5 col-md-5" style="background-color: grey">
+            <p>HTML HTML HTML HTML</p>
+          </div>  
+        </div>  
+    </div>
+
+
+    <!--========================== END Floating textbox ===========================-->
+
+
+    <!--========================== FRIENDs ===========================-->
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-offset-2 col-md-3">
           <div class="row">
-            <div class="col-md-4">
-              asd
-            </div>  
-            <div class="col-md-4">
-              asd
+            <div class="col-md-12 timeline-title">
+              <a href="#">FRIENDs</a>
             </div>
-            <div class="col-md-4">
-              asd
+            <div class="col-md-4 no-padding">
+              <img class="img-responsive" src="Photo/images/thumbs/3.jpg"></img>
+            </div>  
+            <div class="col-md-4 no-padding">
+              <img class="img-responsive" src="Photo/images/thumbs/5.jpg"></img>
+            </div>
+            <div class="col-md-4 no-padding">
+              <img class="img-responsive" src="Photo/images/thumbs/7.jpg"></img>
             </div>
           </div>  
           <div class="row">
-            <div class="col-md-4">
-              asd
+            <div class="col-md-4 no-padding">
+              <img class="img-responsive" src="Photo/images/thumbs/8.jpg"></img>
             </div>  
-            <div class="col-md-4">
-              asd
+            <div class="col-md-4 no-padding">
+              <img class="img-responsive" src="Photo/images/thumbs/6.jpg"></img>
             </div>
-            <div class="col-md-4">
-              asd
+            <div class="col-md-4 no-padding">
+              <img class="img-responsive" src="Photo/images/thumbs/12.jpg"></img>
             </div>
           </div>
-        </div>  
+          <div class="row">
+            <div class="col-md-4 no-padding">
+              <img class="img-responsive" src="Photo/images/thumbs/32.jpg"></img>
+            </div>  
+            <div class="col-md-4 no-padding">
+              <img class="img-responsive" src="Photo/images/thumbs/34.jpg"></img>
+            </div>
+            <div class="col-md-4 no-padding">
+              <img class="img-responsive" src="Photo/images/thumbs/44.jpg"></img>
+            </div>
+          </div>
+        </div> 
       </div>  
     </div>  
-    <!--========================== End Timeline ===========================-->
+    <!--========================== End FRIENDs ===========================-->
+
+    <!--========================== WhoStalkYOU! ===========================-->
+
+    <div class="container-fluid whostalk-container">
+      <div class="row">
+          <div class="col-md-offset-2 col-md-3">
+            <div class="row">
+              <div class="col-md-12 timeline-title">
+              <a href="#">Who Stalk You.</a>
+              </div>
+              <div class="col-md-4 no-padding imgandtext">
+                <img class="img-responsive" src="Photo/images/thumbs/36.jpg"></img>
+                <div class="text-inside">
+                  <p>Jeawy Jang</p>
+                </div>
+              </div>
+              <div class="col-md-4 no-padding imgandtext">
+                <img class="img-responsive" src="Photo/images/thumbs/37.jpg"></img>
+                <div class="text-inside">
+                  <p>Katze Ramkhana</p>
+                </div>
+              </div>
+              <div class="col-md-4 no-padding imgandtext">
+                <img class="img-responsive" src="Photo/images/thumbs/32.jpg"></img>
+                <div class="text-inside">
+                  <p>Ping Sukit</p>
+                </div>
+              </div>
+          </div>
+         </div> 
+      </div>
+    </div>     
+    <!--========================== END WhoStalkYOU ===========================-->
+
+    <!--========================== Pages ===========================-->
+    <div class="container-fluid whostalk-container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-3">
+          <div class="row">
+            <div class="col-md-12 timeline-title">
+              <a href="#">PAGES</a>
+            </div>
+            <div class="col-md-4 no-padding imgandtext">
+              <img class="img-responsive" src="Photo/images/thumbs/39.jpg"></img>
+              <div class="text-inside">
+                <p>DollHouse</p>
+              </div>  
+            </div>  
+            <div class="col-md-4 no-padding imgandtext">
+              <img class="img-responsive" src="Photo/images/thumbs/2.jpg"></img>
+              <div class="text-inside">
+                <p>LeTAO</p>
+              </div>
+            </div>
+            <div class="col-md-4 no-padding imgandtext">
+              <img class="img-responsive" src="Photo/images/thumbs/4.jpg"></img>
+              <div class="text-inside">
+                <p>Bunny</p>
+              </div>  
+            </div>
+          </div>  
+          <div class="row">
+            <div class="col-md-4 no-padding imgandtext">
+              <img class="img-responsive" src="Photo/images/thumbs/11.jpg"></img>
+              <div class="text-inside">
+                <p>Cake&Coffee</p>
+              </div>
+            </div>  
+            <div class="col-md-4 no-padding imgandtext">
+              <img class="img-responsive" src="Photo/images/thumbs/13.jpg"></img>
+              <div class="text-inside">
+                <p>Tobita's</p>
+              </div>
+            </div>
+            <div class="col-md-4 no-padding imgandtext">
+              <img class="img-responsive" src="Photo/images/thumbs/14.jpg"></img>
+              <div class="text-inside">
+                <p>GarDen</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 no-padding imgandtext">
+              <img class="img-responsive" src="Photo/images/thumbs/17.jpg"></img>
+              <div class="text-inside">
+                <p>Wooden Toy</p>
+              </div>
+            </div>  
+            <div class="col-md-4 no-padding imgandtext">
+              <img class="img-responsive" src="Photo/images/thumbs/18.jpg"></img>
+              <div class="text-inside">
+                <p>LAVENDER</p>
+              </div>
+            </div>
+            <div class="col-md-4 no-padding imgandtext">
+              <img class="img-responsive" src="Photo/images/thumbs/22.jpg"></img>
+              <div class="text-inside">
+                <p>MO's Bekery</p>
+              </div>
+            </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>  
+
+
+    <!--========================== End Pages ===========================-->
+
     <div style="height:2000px; width:100%">
     </div>
     <!-- Load JS here for greater good =============================-->
